@@ -19,28 +19,22 @@ public class Solution {
         String string;
         Scanner scanner = new Scanner(System.in);
         
-      
+       /* Read and save an integer, double, and String to your variables.*/
+        // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
+	    
         intvar = scanner.nextInt();
         doublevar = scanner.nextDouble();
         scanner.nextLine();
         string = scanner.nextLine();
-        
-        
-        
-        
-
-        /* Read and save an integer, double, and String to your variables.*/
-        // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
-        System.out.println(i+intvar);
-        System.out.println(d+doublevar);
-        System.out.println(s+string);
-        
         /* Print the sum of both integer variables on a new line. */
 
         /* Print the sum of the double variables on a new line. */
 		
         /* Concatenate and print the String variables on a new line; 
         	the 's' variable above should be printed first. */
+	System.out.println(i+intvar);
+        System.out.println(d+doublevar);
+        System.out.println(s+string);
 
         scan.close();
     }
